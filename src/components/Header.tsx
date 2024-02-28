@@ -11,7 +11,7 @@ function Header() {
       },
       {
         id: 2,
-        name: 'Skills',
+        name: 'Skills and languages',
         path: 'skills',
       },
       
