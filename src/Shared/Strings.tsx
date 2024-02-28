@@ -4,7 +4,7 @@ export default{
 
     SERVICES: 'Knowledge',
 
-    SKILLS:'SKills',
+    SKILLS:'Skills',
     FRONT: 'JavaScript, React, Typescrypt, HTML, CSS, Tailwind CSS, jQuery , GitHub, Debbuging, Photoshop, Illustrator, Procreate',
 
     LANG: 'Languages',
