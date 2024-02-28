@@ -13,7 +13,7 @@ const Contacts: React.FC = () => {
           <div className="flex flex-col items-center">
             
             <div className="w-full border-[1px] mx-4 mt-[-2px]"></div>
-            <h2 className="text-[18px] font-bold">Location</h2>
+            <h2 className="text-[18px] font-bold">Contacts</h2>
             <div className="w-full border-[1px] mx-4 mt-[-2px]"></div>
           </div>
 
