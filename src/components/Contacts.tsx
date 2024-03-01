@@ -1,4 +1,4 @@
-import { IoIosMail } from "react-icons/io";
+
 import { IoLogoLinkedin } from "react-icons/io5";
 
 
