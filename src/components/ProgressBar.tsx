@@ -21,7 +21,7 @@ const ProgressBar = () => {
     }
 
   return (
-    <div className="w-1.5 bg-gray-200 fixed ml-[-5px] mt-[90px] h-full mb-4">
+    <div className="w-1.5 bg-gray-200 fixed ml-[-5px] mt-[45px] h-full mb-4">
       <div className="bg-indigo-200" style={{ height: `${scrollTop}%` }}>
 
       </div>

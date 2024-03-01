@@ -28,7 +28,7 @@ const Contacts: React.FC = () => {
             <p className="text-lg text-gray-400 transition-all ease-in-out cursor-pointer hover:scale-110"
               onClick={handleMailClick}
             >
-              My mail
+              mail me
             </p>
             </div>
             <div className="flex flex-col gap-2">

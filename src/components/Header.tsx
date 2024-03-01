@@ -2,7 +2,7 @@ import { Link } from 'react-scroll'
 import { useState } from 'react'
 
 
-function Header() {
+ function Header() {
     const menu = [
       {
         id: 1,
@@ -22,15 +22,15 @@ function Header() {
       },
     ]
 
-    const [click, setClick] = useState(false)
-    const handleClick = () => setClick(!click)
+     {/* const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click) */}
 
     
 
     return (
       <div className="flex items-center fixed w-full justify-between border-b-[1px] bg-indigo-300">
-      <div className="w-[90px] h-[90px]"></div>
-      <div className="md:flex gap-14">
+      <div className="w-[45px] h-[45px]"></div>
+      {/* <div className="md:flex gap-14">
         <ul className={click ? 'nav-link active' : 'nav-link'}>
           {menu.map((item) => (
             <li key={item.id} className="inline-flex items-center justify-between m-3 font-medium text-white cursor-pointer hover:underline">
@@ -40,8 +40,8 @@ function Header() {
             </li>
           ))}
         </ul>
-      </div>
-      <div className="w-[90px] h-[90px] flex justify-center items-center"></div>
+          </div> */}
+     {/* <div className="w-[90px] h-[90px] flex justify-center items-center"></div> */}
     </div>
     );
   }
