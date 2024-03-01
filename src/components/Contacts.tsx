@@ -1,4 +1,5 @@
 import { IoIosMail } from "react-icons/io";
+import { IoLogoLinkedin } from "react-icons/io5";
 
 
 const Contacts: React.FC = () => {
@@ -19,15 +20,20 @@ const Contacts: React.FC = () => {
 
           <div className="flex justify-around mt-16">
             <div className="flex flex-col gap-7 mb-10 text-[30px]">
-            <IoIosMail 
-            className="transition-all ease-in-out cursor-pointer hover:scale-110"
-            onClick={handleMailClick}
-             />
-
+              <a href='https://www.linkedin.com/in/ekaterina-kuskova-b9558516b/' target='_blank' >
+              <IoLogoLinkedin className="transition-all ease-in-out cursor-pointer hover:scale-110"/>
+              </a>
+            </div>
+            <div className="flex flex-col gap-7 mb-10 text-[30px]">
+            <p className="text-lg text-gray-400 transition-all ease-in-out cursor-pointer hover:scale-110"
+              onClick={handleMailClick}
+            >
+              My mail
+            </p>
             </div>
             <div className="flex flex-col gap-2">
-          <h2 className="text-gray-400">España, Valencia</h2>
           <p className="text-gray-400">Tel: +34 654 956 443</p>
+          <h2 className="text-gray-400">España, Valencia</h2>
         </div>
           </div>
 
