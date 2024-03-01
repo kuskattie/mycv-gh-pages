@@ -1,9 +1,8 @@
-import { Link } from 'react-scroll'
-import { useState } from 'react'
 
 
  function Header() {
-    const menu = [
+
+   {/* const menu = [
       {
         id: 1,
         name: 'Home',
@@ -20,7 +19,7 @@ import { useState } from 'react'
         name: 'Contacts',
         path: 'contacts',
       },
-    ]
+    ] */}
 
      {/* const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click) */}
